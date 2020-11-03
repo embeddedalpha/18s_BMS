@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -185,8 +185,6 @@ Connection ~ 2450 800
 Wire Wire Line
 	2600 800  5650 800 
 Connection ~ 2600 800 
-Text GLabel 1150 4350 0    50   Input ~ 0
-VBAT
 $Comp
 L Regular_Use:CSD18543Q3AT Q?
 U 1 1 602987EC
@@ -1519,8 +1517,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 6800 2150 6800
 Wire Wire Line
-	1300 5000 1300 4350
-Wire Wire Line
 	1300 800  2150 800 
 Connection ~ 2150 800 
 Wire Wire Line
@@ -1547,11 +1543,6 @@ Wire Wire Line
 Connection ~ 5250 6800
 Wire Wire Line
 	5250 6800 5650 6800
-Wire Wire Line
-	1150 4350 1300 4350
-Connection ~ 1300 4350
-Wire Wire Line
-	1300 4350 1300 800 
 Text HLabel 6300 1600 2    50   Input ~ 0
 CB6
 Text HLabel 6300 800  2    50   Input ~ 0
@@ -1592,4 +1583,6 @@ Text HLabel 1050 5500 0    50   Input ~ 0
 CELL1
 Text HLabel 1050 5600 0    50   Input ~ 0
 CELL1-
+Wire Wire Line
+	1300 800  1300 5000
 $EndSCHEMATC
